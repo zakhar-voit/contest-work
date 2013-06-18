@@ -7,10 +7,10 @@ package lib.graph;
  */
 
 @SuppressWarnings("unused")
-public interface Edge<Node> {
-    public Node getFrom();
+public interface Edge {
+    public int getFrom();
 
-    public Node getTo();
+    public int getTo();
 
-    public Edge getReverseEdge();
+    public <E extends Edge> E getReverseEdge();
 }
