@@ -1,0 +1,29 @@
+5 TaskD
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+5 3 2 1
+1 -
+1
+1
+5 2 2 4
+7 Invalid
+1
+9 src/tasks
+16 -Xmx256m -Xss64m
+4 Main
+11 tasks.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.07.18
+29 Yandex Algorithm 2013 Round 2
+1
+14 lib.IO.Scanner
+19 java.io.PrintWriter
+0
+0
