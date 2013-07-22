@@ -63,19 +63,16 @@ public class FastClearingArray<T> implements Iterable<T>, RandomAccess, Cloneabl
         return new Iterator<T>() {
             int pos = 0;
 
-            @Override
             public boolean hasNext() {
                 return pos < getLength();
             }
 
-            @Override
             public T next() {
                 if (!hasNext())
                     throw new NoSuchElementException();
                 return get(pos++);
             }
 
-            @Override
             public void remove() {
                 throw new UnsupportedOperationException();
             }

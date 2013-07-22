@@ -8,11 +8,11 @@ import java.util.InputMismatchException;
 import java.util.StringTokenizer;
 
 /**
- * Created with Intellij Idea
+ * Fast text scanner which can parser primitive types.
  *
  * @author Zakhar Voit(zakharvoit@gmail.com)
  */
-
+@SuppressWarnings("unused")
 public class Scanner {
     BufferedReader in;
     StringTokenizer tok;
@@ -23,9 +23,8 @@ public class Scanner {
     }
 
     public String nextToken() {
-        if (!tok.hasMoreTokens()) {
-            tok = new StringTokenizer(nextLine());
-            return nextToken();
+        while (!tok.hasMoreTokens()) {
+            tok = new StringTokenizer(next());
         }
 
         return tok.nextToken();
@@ -39,7 +38,7 @@ public class Scanner {
         }
     }
 
-    public String nextLine() {
+    public String next() {
         String newLine = tryReadNextLine();
         if (newLine == null)
             throw new InputMismatchException();
