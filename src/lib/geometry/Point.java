@@ -75,6 +75,16 @@ public class Point implements Comparable<Point> {
         return new Point(-y, x);
     }
 
+    public Point rotate(double alpha) {
+        return rotate(Math.cos(alpha), Math.sin(alpha));
+    }
+
+    public Point rotate(double cosa, double sina) {
+        Point v = this;
+        Point u = v.rotate90();
+        return v.multiply(cosa).add(u.multiply(sina));
+    }
+
     public double length() {
         return Math.sqrt(scalarProduct(this));
     }

@@ -7,6 +7,10 @@ package lib;
 public class DoubleUtils {
     static double EPS = 1e-9;
 
+    static public void setEps(double eps) {
+        EPS = eps;
+    }
+
     static public boolean equal(double a, double b) {
         return Math.abs(b - a) < EPS;
     }
@@ -25,6 +29,15 @@ public class DoubleUtils {
         if (x < 0)
             return 0;
         return Math.sqrt(x);
+    }
+
+    static public int round(double x) {
+        int floor = (int) (Math.floor(x) + EPS);
+
+        if (less(x - floor, 0.5))
+            return floor;
+        else
+            return floor + 1;
     }
 
     static public double sqr(double x) {

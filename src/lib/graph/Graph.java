@@ -9,7 +9,8 @@ import java.util.List;
  * @author Zakhar Voit(zakharvoit@gmail.com)
  */
 @SuppressWarnings("unused")
-abstract public class Graph<Weight extends Number> implements WeightedGraph<Weight>, UnweightedGraph {
+abstract public class Graph<Weight extends Number>
+        implements WeightedGraph<Weight>, UnweightedGraph {
 
     List<WeightedEdge<Weight>> adjacencyLists[];
 
@@ -20,7 +21,7 @@ abstract public class Graph<Weight extends Number> implements WeightedGraph<Weig
         this.size = size;
         adjacencyLists = (ArrayList<WeightedEdge<Weight>>[]) new ArrayList[size];
         for (int i = 0; i < size; i++) {
-            adjacencyLists[i] = new ArrayList<WeightedEdge<Weight>>();
+            adjacencyLists[i] = new ArrayList<>();
         }
     }
 
@@ -35,7 +36,7 @@ abstract public class Graph<Weight extends Number> implements WeightedGraph<Weig
     }
 
     public void addEdge(int from, int to, Weight weight) {
-        addEdge(new WeightedEdge<Weight>(from, to, weight));
+        addEdge(new WeightedEdge<>(from, to, weight));
     }
 
     public Weight getWeight(int from, int to) {
@@ -70,7 +71,7 @@ abstract public class Graph<Weight extends Number> implements WeightedGraph<Weig
     @Override
     public List<Integer> getAdjacentNodes(int node) {
         List<WeightedEdge<Weight>> edges = getAdjacentEdges(node);
-        List<Integer> res = new ArrayList<Integer>(edges.size());
+        List<Integer> res = new ArrayList<>(edges.size());
         for (WeightedEdge<Weight> edge : edges) {
             res.add(edge.to);
         }
