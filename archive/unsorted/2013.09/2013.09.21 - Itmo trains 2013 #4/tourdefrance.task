@@ -1,0 +1,28 @@
+12 tourdefrance
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+23 2 4
+40 50
+12 14 16 19
+0
+4 1.19
+1
+9 src/tasks
+16 -Xmx256m -Xss64m
+4 Main
+18 tasks.tourdefrance
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.09.21
+19 Itmo trains 2013 #4
+1
+14 lib.IO.Scanner
+19 java.io.PrintWriter
+0
+0

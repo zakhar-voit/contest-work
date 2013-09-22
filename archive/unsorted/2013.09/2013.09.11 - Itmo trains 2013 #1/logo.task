@@ -1,0 +1,41 @@
+4 logo
+12 MULTI_NUMBER
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+2
+0
+38 1
+5
+fd 100
+lt 120
+fd 100
+lt 120
+fd 100
+1 0
+1
+1
+32 1
+4
+fd 100
+lt 120
+fd 100
+lt 120
+
+3 100
+1
+9 src/tasks
+16 -Xmx256m -Xss64m
+4 Main
+10 tasks.logo
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.09.11
+19 Itmo trains 2013 #1
+1
+14 lib.IO.Scanner
+19 java.io.PrintWriter
+0
+0

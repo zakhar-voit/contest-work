@@ -1,0 +1,35 @@
+22 B - Xenia and Ringroad
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+10 4 3
+3 2 3
+
+2 6
+
+1
+1
+10 4 3
+2 3 3
+
+2 2
+
+1
+9 src/tasks
+8 -Xmx256M
+4 Main
+11 tasks.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.09.12
+30 Codeforces Round #197 (Div. 2)
+1
+14 lib.IO.Scanner
+19 java.io.PrintWriter
+0
+0

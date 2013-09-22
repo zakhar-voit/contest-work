@@ -1,0 +1,36 @@
+7 humidex
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+79 T 30 D 15
+T 30.0 H 34.0
+D 15 H 34.0
+T 30.0 D 25.0
+T 30.0 H 42.3
+D 25.0 H 42.3
+E
+125 T 30.0 D 15.0 H 34.0
+T 30.0 D 15.0 H 34.0
+T 30.0 D 15.0 H 34.0
+T 30.0 D 25.0 H 42.3
+T 30.0 D 25.0 H 42.3
+T 30.0 D 25.0 H 42.3
+1
+9 src/tasks
+16 -Xmx256m -Xss64m
+4 Main
+13 tasks.humidex
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.09.21
+19 Itmo trains 2013 #4
+1
+14 lib.IO.Scanner
+19 java.io.PrintWriter
+0
+0

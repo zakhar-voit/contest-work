@@ -1,0 +1,46 @@
+10 opensource
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+116 UBQTS TXT
+tthumb
+LIVESPACE BLOGJAM
+philton
+aeinstein
+YOUBOOK
+j97lee
+sswxyzy
+j97lee
+aeinstein
+SKINUX
+SUPERX
+1
+A
+b
+1
+0
+63 YOUBOOK 2
+LIVESPACE BLOGJAM 1
+UBQTS TXT 1
+SKINUX 0
+SUPERX 0
+A 1
+1
+9 src/tasks
+16 -Xmx256m -Xss64m
+4 Main
+16 tasks.opensource
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.09.21
+19 Itmo trains 2013 #4
+1
+14 lib.IO.Scanner
+19 java.io.PrintWriter
+0
+0

@@ -1,0 +1,60 @@
+14 virtualfriends
+12 MULTI_NUMBER
+7 TASK_ID
+17 virtualfriends.in
+7 TASK_ID
+10 output.txt
+4
+0
+40 1
+3
+Fred Barney
+Barney Betty
+Betty Wilma
+5 2
+3
+4
+0
+1
+15 1
+3
+a b
+a c
+c b
+6 2 
+3
+3
+0
+2
+21 2
+3
+a b
+b a
+a a
+1
+a a
+7 2
+2
+2
+1
+1
+3
+7 1
+1
+a a
+1 1
+1
+9 src/tasks
+16 -Xmx256m -Xss64m
+4 Main
+20 tasks.virtualfriends
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.09.11
+19 Itmo trains 2013 #1
+1
+14 lib.IO.Scanner
+19 java.io.PrintWriter
+0
+0

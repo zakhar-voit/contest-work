@@ -1,0 +1,64 @@
+8 rdeaalbe
+12 MULTI_NUMBER
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+2
+0
+171 2
+3
+ababa
+aabba
+abcaa
+2
+ababa
+abbaa
+14
+bakers
+brakes
+breaks
+binary
+brainy
+baggers
+beggars
+and
+in
+the
+blowed
+bowled
+barn
+bran
+1
+brainy bakers and beggars bowled in the barn
+34 Scenario #1:
+2
+2
+
+Scenario #2:
+48
+
+1
+1
+9 1
+1
+a
+1
+b
+14 Scenario #1:
+0
+1
+9 src/tasks
+16 -Xmx256m -Xss64m
+4 Main
+14 tasks.rdeaalbe
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.09.17
+19 Itmo trains 2013 #3
+1
+14 lib.IO.Scanner
+19 java.io.PrintWriter
+0
+0
